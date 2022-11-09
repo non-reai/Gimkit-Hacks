@@ -4,9 +4,7 @@ var mx = 0;
 var my = 0;
 var lastAnswer = null;
 var lastAnswerAlphabet = [];
-//alert("Bot Started.");
-//alert("Zoom out to 70%.");
-//alert("Make sure the text is red on the answer you selected.");
+alert("Started.");
 setInterval(() => {
 	var items = document.getElementsByClassName("notranslate lang-en");
 	if (items.length == 5) {
@@ -19,11 +17,12 @@ setInterval(() => {
 		answersAlphabet.sort();
 		lastAnswerAlphabet = answersAlphabet;
 		lastQuestion = question;
-		answer1.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style = "height: 100%; width: 100%;";
-		answer2.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style = "height: 100%; width: 100%;";
-		answer3.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style = "height: 100%; width: 100%;";
-		answer4.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style = "height: 100%; width: 100%;";
+		
 		if (answerDatabase[`${question}_${lastAnswerAlphabet}`] != null) {
+			answer1.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style = "height: 100%; width: 100%;";
+			answer2.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style = "height: 100%; width: 100%;";
+			answer3.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style = "height: 100%; width: 100%;";
+			answer4.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.style = "height: 100%; width: 100%;";
 			if (answer1.innerText != answerDatabase[`${question}_${lastAnswerAlphabet}`]) {
 				answer1.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.remove();
 			}
