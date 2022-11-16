@@ -56,14 +56,14 @@ addEventListener('mousemove', (event) => {
 	px = mx/vw;
 	py = my/vh;
 	var possibleQuadrants = [true,true,true,true];
-	if (py > 0.745) {
+	if (py >= 0.74) {
 		possibleQuadrants[0] = false;
 		possibleQuadrants[1] = false;
 	} else {
 		possibleQuadrants[2] = false;
 		possibleQuadrants[3] = false;
 	}
-	if (px > 0.5) {
+	if (px >= 0.5) {
 		possibleQuadrants[0] = false;
 		possibleQuadrants[2] = false;
 	} else {
@@ -77,9 +77,17 @@ addEventListener('mousemove', (event) => {
 		}
 	}
 	var items = document.getElementsByClassName("notranslate lang-en");
+	for (let i = 0; i < items.length; i++) {
+		items[i].style.color = "";
+	}
 	if (items.length == 5) {
 		lastAnswer = items[quadrant+1];
+		lastAnswer.style.color = "red";
 	}
 });
+window.onerror = function(msg, url, linenumber) {
+    alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber);
+    return true;
+}
 
 
