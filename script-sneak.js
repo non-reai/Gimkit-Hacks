@@ -55,7 +55,7 @@ addEventListener('mousemove', (event) => {
 	px = mx/vw;
 	py = my/vh;
 	var possibleQuadrants = [true,true,true,true];
-	if (py > 0.725) {
+	if (py > 0.74) {
 		possibleQuadrants[0] = false;
 		possibleQuadrants[1] = false;
 	} else {
