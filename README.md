@@ -1,5 +1,8 @@
 # GimkitAnswerShower
 Shows you the answers to gimkit games.
+<h1>NOTE: the things below are deprecated. Use the newer and cooler hack</h1>
+
+for the newer and cooler hack, you have to run the script, input a number (VERY IMPORTANT, NO FAILSAFE), and (EVEN MORE IMPORTANT) get the first answer CORRECT. if you do not do any of those steps correct, you have to refresh and rerun the script.
 
 # Scripts
 <a href="https://github.com/non-reai/GimkitAnswerShower/blob/main/load.js">load.js</a><br>
