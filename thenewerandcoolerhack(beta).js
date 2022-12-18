@@ -1,18 +1,18 @@
 const sockets = [];
 const nativeWebSocket = window.WebSocket;
 var started = false;
-var otherStart = true
-var timeBetween = prompt("Time between questions? (anything below 500 might kick you)")
+var otherStart = true;
+var timeBetween = prompt("Time between questions? (anything below 500 might kick you)");
 window.WebSocket = function(...args) {
 	const socket = new nativeWebSocket(...args);
 	const nativeSend = socket.send;
 	socket.send = function(...args) {
 		nativeSend.call(this, ...args);
 		if (arrayBufferToB64(...args) != "AAA=" && started == true && otherStart == true) {
-			otherStart = false
+			otherStart = false;
 			setInterval(()=>{
 				socket.send(...args);
-			},parseInt(timeBetween));
+			},parseInt(timeBetween) || 800);
 		}
 		if (started == false) {
 			started = true;
