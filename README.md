@@ -7,7 +7,9 @@ for the newer and cooler hack, you have to run the script BEFORE you put your na
 <br>
 <h1>NOTE: the things below are deprecated. Use the newer and cooler hack</h1>
 <hr>
+
 # Scripts
+
 <a href="https://github.com/non-reai/GimkitAnswerShower/blob/main/load.js">load.js</a><br>
 <a href="https://github.com/non-reai/GimkitAnswerShower/blob/main/save.js">save.js</a><br>
 <a href="https://github.com/non-reai/GimkitAnswerShower/blob/main/script.js">script.js</a><br>
