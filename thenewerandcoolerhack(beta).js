@@ -1,10 +1,9 @@
 const sockets = [];
-
-//press U to answer question
-
 var nativeWebSocket = window.WebSocket;
 var started = false;
 var otherStart = true;
+alert("started");
+
 window.WebSocket = function(...args) {
 	const socket = new nativeWebSocket(...args);
 	const nativeSend = socket.send;
@@ -12,7 +11,7 @@ window.WebSocket = function(...args) {
 		nativeSend.call(this, ...args);
 		if (arrayBufferToB64(...args) != "AAA=" && started == true && otherStart == true) {
 			otherStart = false;
-			document.onkeypress = (e)=>{
+			document.onkeydown = (e)=>{
 				if (e.key = "u") {
 					socket.send(...args);
 				};
@@ -44,7 +43,7 @@ const b64toBlob = (b64Data, contentType = '', sliceSize = 512) => {
 
 	const blob = new Blob(byteArrays, { type: contentType });
 	return blob;
-}
+};
 function arrayBufferToB64(buffer) {
 	var binary = '';
 	var bytes = new Uint8Array(buffer);
@@ -53,4 +52,4 @@ function arrayBufferToB64(buffer) {
 		binary += String.fromCharCode(bytes[i]);
 	};
 	return window.btoa(binary);
-}
+};
