@@ -12,7 +12,7 @@ window.WebSocket = function(...args) {
 		if (arrayBufferToB64(...args) != "AAA=" && started == true && otherStart == true) {
 			otherStart = false;
 			document.onkeydown = (e)=>{
-				if (e.key = "u") {
+				if (e.key == "u") {
 					socket.send(...args);
 				};
 			};
