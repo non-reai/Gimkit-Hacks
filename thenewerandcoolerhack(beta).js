@@ -1,29 +1,29 @@
 const sockets = [];
 var nativeWebSocket = window.WebSocket;
 var started = false;
-var otherStart = true;
-alert("started");
+var otherStart = false;
+var lastDataSent = null;
+var using = null;
 
 window.WebSocket = function(...args) {
 	const socket = new nativeWebSocket(...args);
 	const nativeSend = socket.send;
-	socket.send = function(...args) {
-		nativeSend.call(this, ...args);
-		if (arrayBufferToB64(...args) != "AAA=" && started == true && otherStart == true) {
-			otherStart = false;
-			document.onkeydown = (e)=>{
-				if (e.key == "u") {
-					socket.send(...args);
-				};
-			};
-		};
-		if (started == false) {
-			started = true;
-		};
-		
+	socket.send = function(data) {
+		nativeSend.call(this, data);
+		if (data != 2) {
+			lastDataSent = data;
+		}
 	};
 	sockets.push(socket);
 	return socket;
+};
+document.onkeydown = (e)=>{
+	if (e.key == ";") {
+		using = lastDataSent;
+		alert("Saved");
+	} else if (e.key == "u") {
+		sockets[0].send(using);
+	};
 };
 const b64toBlob = (b64Data, contentType = '', sliceSize = 512) => {
 	const byteCharacters = atob(b64Data);
@@ -52,4 +52,7 @@ function arrayBufferToB64(buffer) {
 		binary += String.fromCharCode(bytes[i]);
 	};
 	return window.btoa(binary);
+};
+window.onerror = (err)=>{
+	alert(err);
 };
