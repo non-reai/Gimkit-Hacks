@@ -1,6 +1,5 @@
 # Gimkit Hacks
-for the newer and cooler hack, you have to run the script BEFORE you put your name and press enter (VERY IMPORTANT), input a number (VERY IMPORTANT ALSO, NO FAILSAFE), and (EVEN MORE IMPORTANT) get the first answer CORRECT. if you do not do any of those steps correct, you have to refresh and rerun the script.
-
+for the newer and cooler hack, you have to run the script BEFORE you put your name and press enter (VERY IMPORTANT), then, after answering a question correctly, press ";" (you only have to do this once) and then if you press "u" you can get answers correct.
 after you do that just press "u" and look at your money going up
 <br>
 <br>
