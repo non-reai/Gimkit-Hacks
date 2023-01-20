@@ -4,4 +4,4 @@
 3: press `u` to simulate answering a question<br>
 4: get first place<br>
 
-P.S. you will get kicked if you press `u` too fast (or hold it)
+You get kicked if you press `u` too fast or hold it it long
