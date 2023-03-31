@@ -13,3 +13,4 @@
 3: Press `u` to toggle on or off<br>
 
 ## You might get kicked if you answer too fast.
+i am not responsible for you getting kicked or getting in trouble for using these.
