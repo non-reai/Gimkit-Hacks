@@ -1,5 +1,7 @@
 # Gimkit Hacks
 
+(Maverick Does Tech I saw your video)
+
 ## READ BEFORE USING
 
 To use this exploit, you have to make it a bookmarklet since gimkit patched it.
