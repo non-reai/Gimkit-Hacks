@@ -17,7 +17,7 @@ To make it into a bookmarklet:
 
 1: Click on the bookmarklet BEFORE the page loads (IMPORTANT).<br>
 2: If the dialog box says `Started.` you can continue to step 4, if it says `Refresh and try again.` Continue to step 3.<br>
-3: Refresh the page and click the bookmarklet as fast as possible. Continue to step 2.<br>
+3: Refresh (`CTRL`+`SHIFT`+`R`) the page and click the bookmarklet as fast as possible. Continue to step 2.<br>
 4: Answer a question, then press `;` (Make sure its right or you lose money).<br>
 5: Press `u` to simulate answering a question.<br>
 
@@ -25,7 +25,7 @@ To make it into a bookmarklet:
 
 1: Click on the bookmarklet BEFORE the page loads (IMPORTANT).<br>
 2: If the dialog box says `Started.` you can continue to step 4, if it says `Refresh and try again.` Continue to step 3.<br>
-3: Refresh the page and click the bookmarklet as fast as possible. Continue to step 2.<br>
+3: Refresh (`CTRL`+`SHIFT`+`R`) the page and click the bookmarklet as fast as possible. Continue to step 2.<br>
 4: Answer a question, then press `;` (Make sure its right or you lose money)<br>
 5: Press `u` to toggle on or off<br>
 
