@@ -11,7 +11,7 @@ To make it into a bookmarklet:
 2: Right click on the bookmark, select `Edit`.<br>
 3: Type `javascript:` and paste the exploit.<br>
 
-![bookmarklet](https://user-images.githubusercontent.com/63729314/233174588-10882201-f476-4ca0-9c38-8552a0a37f21.gif)
+[bookmarklet.webm](https://user-images.githubusercontent.com/63729314/233235721-386463e0-0261-4c83-b52f-225f814ae74a.webm)
 
 #### For exploit.js
 
