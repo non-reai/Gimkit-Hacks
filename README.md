@@ -1,7 +1,5 @@
 # Gimkit Hacks
 
-(Maverick Does Tech I saw your video)
-
 ## READ BEFORE USING
 
 To use this exploit, you have to make it a bookmarklet since gimkit patched it.
@@ -28,6 +26,9 @@ To make it into a bookmarklet:
 3: Refresh (`CTRL`+`SHIFT`+`R`) the page and click the bookmarklet as fast as possible. Continue to step 2.<br>
 4: Answer a question, then press `;` (Make sure its right or you lose money)<br>
 5: Press `u` to toggle on or off<br>
+
+[exploiting.webm](https://user-images.githubusercontent.com/63729314/233236594-09ef5a52-5af4-4fff-bfdb-9d7f58449666.webm)
+
 
 ## You might get kicked if you answer too fast.
 I am not responsible for you getting kicked or getting in trouble for using these.
