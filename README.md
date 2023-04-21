@@ -1,5 +1,7 @@
 # Gimkit Hacks
 
+###### Discord server at https://discord.gg/nonreai
+
 ## READ BEFORE USING
 
 To use this exploit, you have to make it a bookmarklet since gimkit patched it.
@@ -39,4 +41,4 @@ Gimkit uses websockets to transfer data between the client and the server. Think
 What this hack does is intercept the data being transferred, records it, and lets it continue to the server.<br>
 When you press `u`, the client sends the saved data directly to the server via the websocket. If the saved data is a correct answer, it will trick the server into giving you money.<br>
 
-###### discord server at https://discord.gg/nonreai
+
