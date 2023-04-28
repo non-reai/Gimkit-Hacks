@@ -4,13 +4,13 @@
 
 #### For exploit.js
 
-1: Type `javascript:` then paste the script in the URL bar.<br>
+1: Type `javascript:` then paste the script in the URL bar while at https://gimkit.com/join.<br>
 2: Answer a question, then press `;` (Make sure its right or you lose money).<br>
 3: Press `u` to simulate answering a question.<br>
 
 #### For exploit-auto.js
 
-11: Type `javascript:` then paste the script in the URL bar.<br>
+11: Type `javascript:` then paste the script in the URL bar while at https://gimkit.com/join.<br>
 2: Answer a question, then press `;` (Make sure its right or you lose money).<br>
 3: Press `u` to toggle on or off<br>
 
