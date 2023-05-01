@@ -1,6 +1,13 @@
 # Gimkit Hacks
 
-due to it being patched multiple times in a day, the hacks will now be in the discord server below.
+## How to use
+
+1: Go to https://gimkit.com/<br>
+2: Type `javascript:` then paste the script above in the url bar and hit enter.<br>
+3: Answer a question (correctly).<br>
+4: Press `;` to save the question. <br>
+5: Press `u` to get money. <br>
+
 
 ###### Discord server at https://discord.gg/nonreai
 
