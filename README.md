@@ -10,6 +10,6 @@
 6: Press `u` to get money. <br>
 
 
-###### Discord server at https://discord.gg/nonreai
+###### Discord server at https://discord.gg/ns96amHPrD
 
 **(JOSH NOT ALLOWED)**
