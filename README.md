@@ -1,5 +1,7 @@
 # Gimkit Hacks
 
+disclaimer: may not work on chromebook (test by typing `javascript:alert("You can use the hacks")` into the search bar, if there is an alert then you can use the hacks.) 
+
 ## How to use
 
 1: Go to https://gimkit.com/<br>
