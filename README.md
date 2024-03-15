@@ -2,6 +2,9 @@
 
 Disclaimer: May not work on chromebook (test by typing `javascript:alert("It works!")` into the search bar, if there is an alert then you can use the hacks.) 
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)]([https://www.buymeacoffee.com/gbraad](https://www.buymeacoffee.com/nonnin))
+
+
 ## How to use
 
 1: Go to https://gimkit.com/<br>
