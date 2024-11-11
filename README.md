@@ -13,6 +13,7 @@ Disclaimer: May not work on chromebook (test by typing `javascript:alert("It wor
 3: Answer a question (**correctly**).<br>
 > [!TIP]
 > The next 2 steps only need to happne if you are using `exploit-auto.js`<br>
+
 4: Press `;` to save the question. <br>
 5: Press `u` to get money. <br>
 
