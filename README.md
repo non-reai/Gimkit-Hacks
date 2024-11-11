@@ -9,7 +9,7 @@ Disclaimer: May not work on chromebook (test by typing `javascript:alert("It wor
 ## How to use
 
 1: Go to https://gimkit.com/<br>
-2: Make a bookmark, then type `javascript:` (in the url bar) then copy and paste the raw code of `exploit.js` or `exploit-auto.js` in the URL bar (after the `javascript:`) and hit enter.<br>
+2: Make a bookmark, then type `javascript:` (in the url bar) then copy and paste the raw code of `exploit.js` or `exploit-auto.js` in the URL bar (after the `javascript:`) and save the bookmark.<br>
 3: Answer a question (**correctly**).<br>
 > [!TIP]
 > The next 2 steps only need to happne if you are using `exploit-auto.js`<br>
