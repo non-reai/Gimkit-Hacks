@@ -19,7 +19,7 @@ Disclaimer: May not work on chromebook (test by typing `javascript:alert("It wor
 
 ## Video Tutorial
 
-(Thank you to Wireless Hardware for making the video)
+(Thank you to Wireless Hardware for making the video)<br>
 Still confused watch this video tutorial:
 
 https://www.youtube.com/watch?v=oqQcnkukvCQ
