@@ -9,13 +9,19 @@ Disclaimer: May not work on chromebook (test by typing `javascript:alert("It wor
 ## How to use
 
 1: Go to https://gimkit.com/<br>
-2: Make a bookmark, then type `javascript:` (in the url bar) then copy and paste the raw code of `exploit.js` or `exploit-auto.js` in the URL bar (after the `javascript:`) and save the bookmark.<br>
-3: Answer a question (**correctly**).<br>
-> [!TIP]
-> The next 2 steps only need to happen if you are using `exploit-auto.js`<br>
+2: Type `javascript:` (in the url bar) then copy and paste the raw code of `exploit.js` or `exploit-auto.js` in the URL bar (after the `javascript:`) and click enter.<br>
 
+> [!TIP]
+> ### You can make a bookmarklet to easily access this exploit anytime.<br>
+> Make a bookmark, then type `javascript:` (in the url bar) then copy and paste the raw code of `exploit.js` or `exploit-auto.js` in the URL bar (after the `javascript:`) and save the bookmark.<br>
+> Just click the bookmarklet next time to start the exploit.<br>
+
+3: Answer a question (**correctly**).<br>
 4: Press `;` to save the question. <br>
 5: Press `u` to get money. <br>
+
+> [!TIP]
+> If you are using `exploit-auto.js`, `u` is used to toggle auto answering on or off.<br>
 
 ## Video Tutorial
 
@@ -23,6 +29,11 @@ Disclaimer: May not work on chromebook (test by typing `javascript:alert("It wor
 Still confused? Watch this video tutorial:
 
 https://www.youtube.com/watch?v=oqQcnkukvCQ
+
+---
+
+> [!WARNING]
+> All exploits/bookmarklets are disabled on chromebooks. If you have a chromebook there is a 99% chance these hacks will not work. 
 
 
 ###### Discord server at https://discord.gg/ns96amHPrD
