@@ -35,7 +35,10 @@ https://www.youtube.com/watch?v=oqQcnkukvCQ
 > [!WARNING]
 > All exploits/bookmarklets are disabled on chromebooks. If you have a chromebook there is a 99% chance these hacks will not work. 
 
+> "how the hell is this repository still popular 😭 this shii and even being maintained anymore"<br>
+\- non
 
+(guys dont bother joining this server is dead asf)
 ###### Discord server at https://discord.gg/ns96amHPrD
 
 **(JOSH NOT ALLOWED)**
